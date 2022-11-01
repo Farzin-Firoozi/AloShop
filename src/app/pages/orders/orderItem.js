@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-import MapView, { Marker } from 'react-native-maps'
+import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps'
 import { Dimensions, Image, StyleSheet, Text, View } from 'react-native'
 
 import {
@@ -49,7 +49,11 @@ const OrderItem = ({ order }) => {
       </View>
 
       <View pointerEvents="none" style={styles.mapWrapper}>
-        <MapView initialRegion={order.location} style={styles.map}>
+        <MapView
+          initialRegion={order.location}
+          style={styles.map}
+          provider={PROVIDER_GOOGLE}
+        >
           <Marker coordinate={order.location} />
         </MapView>
       </View>
