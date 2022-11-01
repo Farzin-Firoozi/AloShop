@@ -11,3 +11,13 @@ the location, the app will redirect them to a second tab. The
 second tab is the active orders of that same user.
 
 It will check every `5` seconds for the status of the order (e.g. `pending`, `processing`, `delivering`, and `delivered`) and every `30` seconds the app will change the status of order automatically.
+
+## ScreenShots 📱
+
+<img src="https://raw.githubusercontent.com/Farzin-Firoozi/AloShop/master/screenshots/categories.png" width="400px" />
+
+<img src="https://raw.githubusercontent.com/Farzin-Firoozi/AloShop/master/screenshots/products.png" width="400px" />
+
+<img src="https://raw.githubusercontent.com/Farzin-Firoozi/AloShop/master/screenshots/address.png" width="400px" />
+
+<img src="https://raw.githubusercontent.com/Farzin-Firoozi/AloShop/master/screenshots/orders.png" width="400px" />
